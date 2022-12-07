@@ -16,9 +16,11 @@ I am a sociable, decent, responsible person. I take courses to gain new knowledg
 * JavaScript (Basic)
 
 ## __Code Example__
-function multiply(a, b){<br>
-return a * b<br>
-}<br>
+```
+function multiply(a, b){
+return a * b
+}
+```
 
 ## __Experiens__
 Nothing yet…
