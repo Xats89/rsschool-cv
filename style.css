@@ -1,3 +1,80 @@
-h1 {
-    color: blue;
+.bodyStyle {
+margin: 0;
+padding: 0;
+background-color: rgba(0, 0, 0, 0.267);
+font-size: 0;
 }
+.headerStyle {
+    margin: 0 auto;
+    max-width: 960px;
+}
+    .header {
+        width: 100%;
+        height: max-content;
+        background-color: rgba(22, 21, 21, 0.932);
+        display: inline-flex;
+        color: rgb(194, 194, 177);
+        align-items: flex-start;
+        font-size: 200%;
+    }
+    .header h1 {
+        color:rgb(227, 231, 219);
+        align-self: stretch;
+        text-align: center;
+        margin: auto 50px;
+        font-size:70px;
+    }
+    .header img {
+        border-radius: 50%;
+    }
+
+.mainStyle {
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+}
+    .leftBlock {
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        background-color: rgba(22, 21, 21, 0.932);
+        color: antiquewhite;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 1rem;
+    }
+        .contacts{
+            margin-bottom: 3rem;
+        }
+            .contacts thead{
+                font-size: 30px;
+                font-weight: 700;
+            }
+            .contacts tbody {
+                height: 9em;
+            }
+        .skills strong{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .skills ul{
+            margin-block-start: 10px ;
+        }
+        .skills ul li{
+            height: 35px;
+        }
+
+        .language strong{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .language ul{
+            margin-block-start: 10px ;
+        }
+        .language ul li{
+            height: 35px;
+        }
+
+    .rightBlock {
+        font-size: medium;
+    }
