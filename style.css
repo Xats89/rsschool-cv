@@ -1,8 +1,8 @@
 .bodyStyle {
-margin: 0;
+margin: 0 auto;
 padding: 0;
-background-color: rgba(0, 0, 0, 0.267);
 font-size: 0;
+max-width: 960px;
 }
 .headerStyle {
     margin: 0 auto;
@@ -13,68 +13,148 @@ font-size: 0;
         height: max-content;
         background-color: rgba(22, 21, 21, 0.932);
         display: inline-flex;
-        color: rgb(194, 194, 177);
+        color: rgb(255, 255, 255);
         align-items: flex-start;
-        font-size: 200%;
     }
     .header h1 {
-        color:rgb(227, 231, 219);
+        color:rgb(255, 255, 255);
         align-self: stretch;
         text-align: center;
         margin: auto 50px;
         font-size:70px;
+        padding-top: 20px;
+        text-shadow:wheat 1px 0 10px;
     }
     .header img {
         border-radius: 50%;
+        margin: 10px
     }
-
+    .navAndName {
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        width: 100%;
+    }
+    .navAndName img {
+        width: 80px;
+        border-radius: 0;
+        border: none;
+    }
+    .navAndName nav {
+        align-self: flex-end;
+    }
 .mainStyle {
     margin: 0 auto;
     max-width: 960px;
     display: flex;
+    background-color:rgba(22, 21, 21, 0.932) ;
 }
     .leftBlock {
         display: flex;
         flex-direction: column;
         align-self: stretch;
-        background-color: rgba(22, 21, 21, 0.932);
-        color: antiquewhite;
+        color: rgb(255, 255, 255);
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
-        padding-top: 1rem;
+        padding: 10px 10px ;
     }
         .contacts{
-            margin-bottom: 3rem;
+            display:block;
+            margin-bottom: 25px;
         }
             .contacts thead{
-                font-size: 30px;
-                font-weight: 700;
+                line-height: 0;
             }
             .contacts tbody {
                 height: 9em;
             }
-        .skills strong{
-            font-size: 30px;
+            .skills h2{
             font-weight: 700;
-        }
-        .skills ul{
-            margin-block-start: 10px ;
-        }
-        .skills ul li{
-            height: 35px;
-        }
-
-        .language strong{
-            font-size: 30px;
-            font-weight: 700;
-        }
-        .language ul{
-            margin-block-start: 10px ;
-        }
-        .language ul li{
-            height: 35px;
-        }
-
+            line-height: 0;
+            }
+            .skills ul{
+                margin-block-start: 10px ;
+            }
+            .skills ul li{
+                height: 35px;
+            }
+            .language h2{
+                line-height: 0;
+            }
+            .language ul{
+                margin-block-start: 10px ;
+            }
+            .language ul li{
+                height: 35px;
+            }
     .rightBlock {
-        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        border: 5px solid rgba(22, 21, 21, 0.932);
+        border-radius: 30px;
+        padding: 10px;
+        background-color: rgb(233, 233, 211);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        hr {
+            width: 100%;
+        }
+        .aboutMe h2{
+            margin-block: 0;
+        }
+        .aboutMe p {
+            margin-block: 0;
+            margin-bottom: 15px;
+            font-style: italic;
+            text-align: justify;
+        }
+        .codeExample h2 {
+            margin-block: 0;
+        }
+        .codeExample blockquote {
+            background-color: rgb(219, 217, 217);
+            margin-block: 5px;
+            margin-bottom: 10px;
+        }
+        .expiriens h2 {
+            margin-block: 0;
+        }
+        .expiriens p {
+            margin-block: 0;
+            margin-bottom: 15px;
+        }
+        .education h2 {
+            margin-block: 0;
+        }
+        .education ul {
+            margin-block: 0;
+            font-size: 20px;
+        }
+.footerStyle {
+    background-color: rgba(22, 21, 21, 0.932);
+    width: 100%;
+    color: white;
+    font-size: 0;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+    .logoRS {
+        height: 50px;
+        width: 100px;
+        border: none;
+        background-color: aliceblue;
+        margin-inline-start: 1em;
+    }
+    .logoGitHub img {
+        width: 100px;
+        height: 50px;
+        border: none;
+    }
+    .footerStyle p {
+        color: white;
+        font-size: 20px;
+        padding: 10px;
     }
