@@ -1,8 +1,12 @@
+
 .bodyStyle {
 margin: 0 auto;
 padding: 0;
 font-size: 0;
 max-width: 960px;
+background-image: url(http://www.topoboi.com/pic/201312/1920x1080/topoboi.com-32882.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .headerStyle {
     margin: 0 auto;
@@ -11,7 +15,6 @@ max-width: 960px;
     .header {
         width: 100%;
         height: max-content;
-        background-color: rgba(22, 21, 21, 0.932);
         display: inline-flex;
         color: rgb(255, 255, 255);
         align-items: flex-start;
@@ -47,7 +50,6 @@ max-width: 960px;
     margin: 0 auto;
     max-width: 960px;
     display: flex;
-    background-color:rgba(22, 21, 21, 0.932) ;
 }
     .leftBlock {
         display: flex;
@@ -58,15 +60,14 @@ max-width: 960px;
         font-family: Arial, Helvetica, sans-serif;
         padding: 10px 10px ;
     }
-        .contacts{
-            display:block;
-            margin-bottom: 25px;
-        }
-            .contacts thead{
+            .contacts h2 {
+                font-weight: 700;
                 line-height: 0;
             }
-            .contacts tbody {
-                height: 9em;
+            .contacts ul{
+                margin-block-start: 10px ;
+                padding-inline-start: 15px;
+                min-width: max-content;
             }
             .skills h2{
             font-weight: 700;
@@ -132,7 +133,6 @@ max-width: 960px;
             font-size: 20px;
         }
 .footerStyle {
-    background-color: rgba(22, 21, 21, 0.932);
     width: 100%;
     color: white;
     font-size: 0;
