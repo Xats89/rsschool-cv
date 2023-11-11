@@ -17,8 +17,8 @@ I am a sociable, decent, responsible person. I take courses to gain new knowledg
 
 ## __Code Example__
 ```
-function multiply(a, b){
-return a * b
+function multiply(a, b) {
+  return a * b
 }
 ```
 
