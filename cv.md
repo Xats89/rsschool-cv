@@ -30,6 +30,7 @@ return a * b
 * [Belarusian State University of Informatics and Radioelectronics](https://www.bsuir.by/)
 * Оnline tutorial JavaScript: https://learn.javascript.ru/ (in the process)
 * [Video tutorials JS from Bogdan Stashchuk](https://www.youtube.com/watch?v=CxgOKJh4zWE&t=838s)
+* [RS School stage 0](http://app.rs.school/certificate/v0ohiv43)
 
 ## __Language__
 * Russian - native
